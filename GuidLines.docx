@@ -1,0 +1,26 @@
+# clone (Use to copy github repo into laptop or pc (VScode))
+command==> git clone <Repo_Link(HTTPS)>
+
+command ==> ls (to view all files(Normal) in Repo)
+command ==> ls -Force (to view all files(Hidden) in Repo)
+
+# status (It shows the status of code)
+command ==> git status
+
+# add (adds new or changed files in your working directory to Git staging area)
+command ==> git add <file_name>
+command ==> git add <.> (To add all new or changed files)
+
+# commit (it is the record of change with meaningful message)
+command ==> git commit -m "meaningful message"
+
+# push (upload local Repo(Vscode) content to remote Repo(GitHub))
+command ==> git push origin main
+
+# init (used to create a new Git Repo)
+command ==> git init
+
+command ==> git remote add origin <Link> (to add git remote)
+command ==> git remote -v (To verify remote(added ot not))
+command ==> git branch (to check branch)
+command ==> git branch -M main (to rename branch)
