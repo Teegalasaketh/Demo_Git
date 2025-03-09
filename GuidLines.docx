@@ -22,5 +22,6 @@ command ==> git init
 
 command ==> git remote add origin <Link> (to add git remote)
 command ==> git remote -v (To verify remote(added ot not))
-command ==> git branch (to check branch)
-command ==> git branch -M main (to rename branch)
+command ==> git branch (to check branch(master by default))
+command ==> git branch -M main (to rename branch(master to main))
+command ==> git push -u origin main (While you are working long on same project you don't need to spacify (git push origin main) to avoid it we simply type command (git push)) 
