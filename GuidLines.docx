@@ -15,7 +15,7 @@ command ==> git add <.> (To add all new or changed files)
 command ==> git commit -m "meaningful message"
 
 # push (upload local Repo(Vscode) content to remote Repo(GitHub))
-command ==> git push origin main
+command ==> git push origin <branch Name>
 
 # init (used to create a new Git Repo)
 command ==> git init
@@ -25,3 +25,14 @@ command ==> git remote -v (To verify remote(added ot not))
 command ==> git branch (to check branch(master by default))
 command ==> git branch -M main (to rename branch(master to main))
 command ==> git push -u origin main (While you are working long on same project you don't need to spacify (git push origin main) to avoid it we simply type command (git push)) 
+command ==> git checkout <branch name> (to navigate)
+command ==> git checkout -b <new branch name> (to create new branch)
+command ==> git branch -d <branch name> (to delete branch)
+
+merge code(to main branch)
+way-1
+command ==> git diff <branch name> (to compare commits,branches,files and more)
+command ==> merge <branch name> (to merge 2 branches)
+
+way-2
+create a PR(pull request) in github
