@@ -35,4 +35,4 @@ command ==> git diff <branch name> (to compare commits,branches,files and more)
 command ==> merge <branch name> (to merge 2 branches)
 
 way-2
-create a PR(pull request) in github
+create a PR(pull request) in gitHub
